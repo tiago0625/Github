@@ -1,3 +1,9 @@
 .padding{
-    margin: 5px;
+    text-align: center;
 }
+
+.text-custom{
+    text-align: left;
+    background-color: darkgrey;
+}
+
