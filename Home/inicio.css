@@ -1,3 +1,9 @@
+*{
+    /* font-family: sans-serif; */
+font-family: cursive;
+box-sizing: border-box;
+}
+
 .padding{
     text-align: center;
 }
@@ -8,5 +14,14 @@
 }
 
 .form-custom{
-    align-items: center;
+    display: grid;
+    float: right;
+}
+
+.fields-custom{
+    margin-bottom: 16px;
+}
+
+.img{
+    width: 220px;
 }
