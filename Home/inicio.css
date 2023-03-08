@@ -2,10 +2,13 @@
     /* font-family: sans-serif; */
 font-family: cursive;
 box-sizing: border-box;
+display: block;
 }
 
 .padding{
     text-align: center;
+    border-style: solid;
+    background-color: aqua;
 }
 
 .text-custom{
