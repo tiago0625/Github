@@ -1,82 +1,119 @@
 *{
     font-family: sans-serif;
     box-sizing: border-box;
-   
+
 }
 
+header, section, footer, aside, article, hgroup, .programador{
+    display: block;
 
-
-img{
-    width: 150px;
-}
-#imgprogramador{
-    margin:auto;
 }
 
-.cabecera {
-    background: aqua;
+body{
     margin: 0;
-    padding: 0px;
-    text-align: center;
-    border-style: solid;
+}
+
+.cabecera{
+    background: #005a87;
+    margin: 0;
+    padding: 20px;
     
 }
+
 .cabecera h1{
-    /* border-radius: 2cm; */
-    background-color: black;
+    text-align: center;
+    font-size: 50px;
     color: #fff;
+    margin: 0;
+    padding: 5px;
+    border-radius: 2cm;
+    background-color: rgb(51, 69, 95);
 }
 
 nav{
     overflow: auto;
-text-align: center;
-background-color: beige;
+    background-color: #333;
+    text-align: center;
 }
-.navegador a{
-    color: black;
+
+.navegador a {
     display: inline-block;
-    padding: 14px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    border-radius: 20%;
+
 }
 
 .navegador a:hover{
-    background-color: aqua;
-    
+    background-color: #ddd;
+    color: black;
+
 }
-.seccion{
+
+.seccion {
     border-style: double;
-    margin: 10px;
+    margin: 20px;
     float: left;
     width: 60%;
 
 }
 
-article{
-    background-color: gray;
+article {
+    background-color: lightgray;
     padding: 20px;
     margin-bottom: 15px;
+        
+}
+
+article footer{
+    text-align: right;
 }
 
 .columna{
     float: left;
     width: 30%;
     margin: 20px;
-    background-color: gray;
+    background-color: #f1f1f1;
     padding: 20px;
+
 }
 
 .programador{
     float: left;
-    margin: 20%;
+    margin: 20px;
+
 }
+
 #pieInformacion{
-    background: grey;
+    background: #005a87;
     padding: 20px;
     color: #fff;
     text-align: center;
     clear: both;
 }
+
 h1{
-    text-shadow: 2px 2px 5px aqua;
-   
+    font-size: 25px;
+    text-shadow: 2px 2px 5px red;
 }
+
+h2{
+    font-size: 20px;
+
+}
+
+#imgProgramador{
+    width: 200px;
+    margin: auto;
+}
+
+#imagen{
+    width: 25%;
+    margin: auto;
+}
+
+
+
+
